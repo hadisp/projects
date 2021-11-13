@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./asset/css/uikit-rtl.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <script src="./asset/js/uikit.min.js"></script>
+    <script src="./asset/js/uikit-icons.min.js"></script>
+    <title>shop 1</title>
+</head>
+<body>
+<!-- Header -->
+<div class="uk-padding uk-visible@l">
+    <div class="uk-container">
+        <nav class="uk-navbar-container mod-bg-white" data-uk-navbar>
+            <div id="modal-full" class="uk-modal-full uk-modal" data-uk-modal>
+                <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle mod-search-modal" data-uk-height-viewport>
+                    <div>
+                        <button class="uk-modal-close-full" type="button" data-uk-close></button>
+                        <h2 class="mod-white uk-text-center"> دنبال چی میگردی ؟</h2>
+                        <form class="uk-search uk-search-default">
+                            <span class="uk-search-icon-flip mod-blue" data-uk-search-icon></span>
+                            <input class="uk-search-input mod-radius uk-text-right" type="search" placeholder="جستجو کن ...">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-subnav uk-navbar-right" data-uk-margin>
+                <a href="cart.html" class="uk-position-relative mod-black-icon" data-uk-toggle="target: #bag"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+                <a href="#" class="uk-position-relative mod-black-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                <a href="login-register.html" class=" mod-black-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></a>
+                <a href="#modal-full" class="mod-black-icon" data-uk-toggle><img src="asset/img/search.svg" alt="" data-uk-svg></a>
+            </div>
+            <div id="bag" data-uk-offcanvas="flip:false; overlay: true">
+                <div class="uk-offcanvas-bar mod-bag-off">
+
+                    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+                    <h3 class="uk-h4 uk-margin-remove-top">سبد خرید شما</h3>
+                    <hr class="mod-hr">
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/cart-p.jpg" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-width-expand uk-flex-middle">
+                            <div class="uk-margin-small">کتانی نایک سفید مدل Jordan</div>
+                            <div class="uk-margin-small">Nike Jordan Sneakers</div>
+                            <div class="uk-margin-small mod-blue">250000  تومان</div>
+                        </div>
+                        <div class="uk-width-auto uk-flex uk-flex-middle">
+                            <a href="#" class="mod-trash" data-uk-icon="icon:trash"></a>
+                        </div>
+                    </div>
+                    <hr class="mod-hr">
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/cart-p.jpg" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-width-expand uk-flex-middle">
+                            <div class="uk-margin-small">کتانی نایک سفید مدل Jordan</div>
+                            <div class="uk-margin-small">Nike Jordan Sneakers</div>
+                            <div class="uk-margin-small mod-blue">250000  تومان</div>
+                        </div>
+                        <div class="uk-width-auto uk-flex uk-flex-middle">
+                            <a href="#" class="mod-trash" data-uk-icon="icon:trash"></a>
+                        </div>
+                    </div>
+                    <hr class="mod-hr">
+                </div>
+            </div>
+            <div class="uk-flex-center uk-navbar-center uk-visible@l">
+                <ul class="uk-navbar-nav">
+                    <li><a class="uk-button uk-button-text mod-black" href="index.html">صفحه اصلی</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#">مردانه </a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#">زنانه</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#" >بچه گانه</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#">ورزشی</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="shop.html">محصولات</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="blog.html">وبلاگ</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="about.html">درباره ما</a></li>
+                </ul>
+            </div>
+
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li><img src="asset/img/Logo.svg" alt="" data-uk-svg></li>
+                </ul>
+                <div class="uk-subnav uk-flex uk-flex-center uk-navbar-right uk-hidden@m uk-padding-remove-vertical" data-uk-margin>
+                    <a href="#" class="uk-position-relative mod-black-icon" data-uk-toggle="target: #bag"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+                    <a href="#" class="uk-position-relative mod-black-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                    <a href="#" class="mod-black-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></a>
+                    <a href="#modal-full" class="mod-black-icon" data-uk-toggle><img src="asset/img/search.svg" alt="" data-uk-svg></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="uk-container uk-hidden@l">
+    <nav class="uk-navbar-container mod-bg-white" data-uk-navbar>
+        <div class="uk-navbar-right">
+            <a class="uk-navbar-toggle" href="#" data-uk-toggle="target: #offcanvas">
+                <span data-uk-navbar-toggle-icon></span>
+            </a>
+        </div>
+        <div id="offcanvas" data-uk-offcanvas="flip:false; overlay: true">
+            <div class="uk-offcanvas-bar mod-sid-menu">
+
+                <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+                <img class="uk-margin" src="asset/img/Logo.svg">
+                <hr class="mod-hr">
+                <ul class="uk-list uk-margin-small-top mod-list">
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="index.html">صفحه اصلی</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">مردانه </a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">زنانه</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">بچه گانه</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">ورزشی</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="shop.html">محصولات</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="blog.html">وبلاگ</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="about.html">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="uk-navbar-left">
+            <div class="uk-subnav" data-uk-margin>
+                <a href="cart.html" class="uk-position-relative mod-black-icon" data-uk-toggle="target: #bag"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+                <a href="#" class="uk-position-relative mod-black-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                <a href="login-register.html" class="mod-black-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></a>
+                <a href="#modal-full" class="mod-black-icon" data-uk-toggle><img src="asset/img/search.svg" alt="" data-uk-svg></a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="uk-position-relative uk-visible-toggle" id="main" data-uk-slideshow="animation: push">
+    <ul class="uk-slideshow-items" dir="rtl">
+        <li>
+            <div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-text-center uk-light uk-height-1-1 uk-padding-small"
+                 data-src="asset/img/Header-1.jpg"
+                 data-srcset="asset/img/Header-1.jpg"
+                 data-uk-img>
+                <div data-uk-grid>
+                    <div class="uk-width-auto uk-flex uk-flex-middle">
+                        <div>
+                            <h1 class="uk-text-left uk-text-center mod-slider-title1 uk-text-bold">NIKE</h1>
+                            <h2 class="uk-text-left uk-margin-remove-top mod-slider-title2">COLLECTION 2018</h2>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <img src="asset/img/Shoe1.png" data-uk-img>
+                    </div>
+                </div>
+                <div class="mod-slider-count mod-white" data-uk-margin>
+                    <span class="mod-index"></span><span class="uk-margin-small-left uk-margin-small-right">/</span><span class="mod-count"></span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-text-center uk-light uk-height-1-1 uk-padding-small"
+                 data-src="asset/img/Header-1.jpg"
+                 data-srcset="asset/img/Header-1.jpg"
+                 data-uk-img>
+                <div data-uk-grid>
+                    <div class="uk-width-auto uk-flex uk-flex-middle">
+                        <div>
+                            <h1 class="uk-text-left uk-text-center mod-slider-title1 uk-text-bold">NIKE</h1>
+                            <h2 class="uk-text-left uk-margin-remove-top mod-slider-title2">COLLECTION 2018</h2>
+
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <img src="asset/img/Shoe1.png" data-uk-img>
+                    </div>
+                </div>
+                <div class="mod-slider-count mod-white" data-uk-margin>
+                    <span class="mod-index"></span><span class="uk-margin-small-left uk-margin-small-right">/</span><span class="mod-count"></span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-text-center uk-light uk-height-1-1 uk-padding-small"
+                 data-src="asset/img/Header-1.jpg"
+                 data-srcset="asset/img/Header-1.jpg"
+                 data-uk-img>
+                <div class="" data-uk-grid>
+                    <div class="uk-width-auto uk-flex uk-flex-middle">
+                        <div>
+                            <h1 class="uk-text-left uk-text-center mod-slider-title1 uk-text-bold">NIKE</h1>
+                            <h2 class="uk-text-left uk-margin-remove-top mod-slider-title2">COLLECTION 2018</h2>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <img src="asset/img/Shoe1.png" data-uk-img>
+                    </div>
+                </div>
+                <div class="mod-slider-count mod-white" data-uk-margin>
+                    <span class="mod-index"></span><span class="uk-margin-small-left uk-margin-small-right">/</span><span class="mod-count"></span>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="uk-light">
+        <a class="mod-slider-position-next" href="#" data-uk-slidenav-next data-uk-slideshow-item="next"></a>
+        <a class="mod-slider-position-pre"   href="#" data-uk-slidenav-previous data-uk-slideshow-item="previous"></a>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-small uk-flex-center" data-uk-grid>
+            <div class="uk-width-auto">
+                <a href="#">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                            <img src="asset/img/Collection-1.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h2 class="uk-h5 uk-margin-small-bottom uk-text-center">کالکشن جدید</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="uk-width-auto">
+                <a href="#">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                            <img src="asset/img/Collection-2.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h2 class="uk-h5 uk-margin-small-bottom uk-text-center">کالکشن جدید</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="uk-width-auto">
+                <a href="#">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                            <img src="asset/img/Collection-3.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-card-body uk-padding-small">
+                            <h2 class="uk-h5 uk-margin-small-bottom uk-text-center">کالکشن جدید</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large" data-uk-grid>
+            <div class="uk-text-center">
+                <div class="mod-blue-icon">
+                    <img src="asset/img/Return.svg" data-uk-svg alt="">
+                </div>
+                <h3 class="mod-black uk-h5 uk-margin-small-top">برگشت محصول</h3>
+                <p class="uk-text-muted">تمامی محصولات تا 7 روز ضمانت بازگشت دارند</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="mod-blue-icon">
+                    <img src="asset/img/Guarantee.svg" data-uk-svg alt="">
+                </div>
+                <h3 class="mod-black uk-h5 uk-margin-small-top">ضمانت اصالت کالا</h3>
+                <p class="uk-text-muted">تمامی محصولات دارای سیب سلامت و تاییدیه می باشند</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="mod-blue-icon">
+                    <img src="asset/img/Delivery.svg" data-uk-svg alt="">
+                </div>
+                <h3 class="mod-black uk-h5 uk-margin-small-top">تحویل سریع</h3>
+                <p class="uk-text-muted">تمامی محصولات با پست اکسپرس ارسال می شوند</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="mod-blue-icon">
+                    <img src="asset/img/Support.svg" data-uk-svg alt="">
+                </div>
+                <h3 class="mod-black uk-h5 uk-margin-small-top">پشتیبانی 24 ساعته</h3>
+                <p class="uk-text-muted">تمامی روزهای هفته 24 ساعته آماده پاسخ به سوالات شما هستیم</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container uk-text-center">
+        <h2 class="uk-h3">تازه ترین محصولات</h2>
+        <h3 class="uk-text-muted uk-h4">جدید ترین محصولات اضافه شده به فروشگاه پوشاک</h3>
+        <div class="uk-position-relative uk-visible-toggle" id="slide" data-uk-slider >
+            <ul class="uk-slider-items uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s uk-child-width-1-1 uk-padding uk-padding-remove-horizontal uk-margin-large-bottom" data-uk-grid>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product1.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+               <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product2.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+               <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product3.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+               <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product4.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+               <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product5.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+               <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product6.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center uk-text-muted" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right" href="#"><img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg></a>
+                                        <a class="uk-margin-left uk-margin-right" href="#"><img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+               <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product1.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right" href="#"><img src="asset/img/view.svg" alt="" data-uk-svg></a>
+                                        <a class="uk-margin-left uk-margin-right" href="#"><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <a class="mod-slide-next uk-position-small uk-box-shadow-medium" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+            <a class="mod-slide-pre uk-position-small uk-box-shadow-medium" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+        </div>
+    </div>
+</div>
+<div class="uk-section uk-margin-large-bottom">
+    <div class="uk-container">
+        <div>
+            <div class="uk-card uk-card-default uk-padding ">
+                <div class="uk-child-width-1-2@s uk-child-width-1-1" data-uk-grid>
+                    <div>
+                        <h2 class="uk-h5">پیشنهاد شگفت انگیز</h2>
+                        <h3 class="uk-h4">کتانی اسپرت تراست مدل Runner</h3>
+                        <div class="uk-h4">
+                            <span class="uk-text-muted mod-line-through">475000 تومان</span>
+                            <span class="mod-blue">425000 تومان</span>
+                        </div>
+                        <div class="uk-margin-medium">
+                            <hr>
+                        </div>
+                        <div>
+                            <ul class="mod-black mod-list" data-uk-margin>
+                                <li>رویه تهیه شده از 50% چرم</li>
+                                <li>کفی 100% پارچه پای استر مش است</li>
+                                <li>آستر 59% پارچه پلی استر  مش و 41 % میکروفایبر</li>
+                                <li>قابلیت تنفس و گردش هوا  از ایجاد رطوبت در داخل آن</li>
+                                <li>مناسب استفاده روزمره</li>
+                                <li>زیره تهیه شده از 100% لاستیک</li>
+                            </ul>
+                        </div>
+                        <div class="uk-margin-medium-top">
+                            <hr>
+                        </div>
+                        <div>
+                            <span class="uk-text-muted uk-align-right@m uk-align-center uk-margin-remove-bottom uk-h5">زمان باقی مانده تا پایان سفارش</span>
+                            <span class="mod-black uk-align-left@m uk-align-center uk-margin-remove-bottom uk-h4">12:00:00</span>
+                        </div>
+                    </div>
+                    <div class="uk-inline">
+                        <img src="asset/img/Recommanded-Image.jpg" data-uk-img alt="">
+                        <div class="mod-offer uk-inline">
+                          <img src="asset/img/Base-Offer.svg" alt="" data-uk-img>
+                            <span class="uk-position-center mod-white">25%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" uk-background-cover uk-padding-large uk-flex uk-flex-middle uk-height-large" style="background-image: url(asset/img/Banner.jpg)"
+     data-uk-img>
+    <div class="uk-padding-large">
+        <div class="uk-grid-small" data-uk-grid>
+            <div class="uk-width-auto@s uk-width-1-1 uk-flex uk-flex-center uk-flex-middle mod-blue-icon"><img src="asset/img/M-Logo.svg" alt="" data-uk-svg></div>
+            <div class="uk-width-expand@s uk-width-1-1">
+                <h2 class="uk-text-bold uk-margin-small-bottom uk-text-right@s uk-text-center">فروشگاه پوشاک مهدی مجیدی</h2>
+                <h3 class="uk-h5 uk-text-bold uk-margin-small-top uk-text-right@s uk-text-center">کالکشن بهترین برند های پوشاک دنیا با قیمت مناسب</h3>
+                <div class="uk-flex uk-flex-center mod-blue-icon" data-uk-margin>
+                    <img class="uk-margin-left" src="asset/img/Bershka.svg" data-uk-svg alt="">
+                    <img class="uk-margin-left" src="asset/img/Zara.svg" data-uk-svg alt="">
+                    <img class="uk-margin-left" src="asset/img/Versace.svg" data-uk-svg alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section-large">
+    <div class="uk-container uk-text-center">
+        <h2 class="uk-h3">محصولات پرفروش</h2>
+        <h3 class="uk-text-muted uk-h4">محصولات پرفروش فروشگاه پوشاک</h3>
+        <div class="uk-position-relative uk-visible-toggle" id="slider" data-uk-slider >
+            <ul class="uk-slider-items uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s uk-child-width-1-1 uk-padding uk-padding-remove-horizontal uk-margin-large-bottom" data-uk-grid>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product1.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product2.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">کیف چرمی زنانه</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product3.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضخیم داخل کرک</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product4.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product5.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product6.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <div>
+                        <a href="#">
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                    <img src="asset/img/Product7.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                                </div>
+                                <div class="uk-card-body uk-padding-small">
+                                    <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                    <h2 class="uk-h5 uk-margin-small-bottom">هودی ضحیم</h2>
+                                    <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                    <hr>
+                                    <div class="uk-flex-center" data-uk-margin>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                        </a>
+                                        <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                            <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                            <div class="mod-triangle"></div>
+                                            <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <a class="mod-slide-next uk-position-small uk-box-shadow-medium" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+            <a class="mod-slide-pre uk-position-small uk-box-shadow-medium" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+        </div>
+        <hr class="uk-margin-large-top">
+    </div>
+</div>
+<div class="uk-section uk-padding-remove-top">
+    <div class="uk-container uk-text-center">
+        <h2 class="uk-h3">محصولات پر بازدید</h2>
+        <h3 class="uk-text-muted uk-margin-large-bottom uk-h4">محصولات پرفروش فروشگاه پوشاک</h3>
+        <div data-uk-filter="target: .js-filter">
+            <ul class="uk-subnav uk-subnav-pill mod-subnav uk-child-width-auto@s uk-flex-center uk-child-width-auto@s uk-child-width-1-2" data-uk-grid>
+                <li data-uk-filter-control><a class="mod-subnav-li uk-box-shadow-small" href="#">همه</a></li>
+                <li data-uk-filter-control="[data-color='white']"><a class="mod-subnav-li uk-box-shadow-small" href="#">کفش و کتانی</a></li>
+                <li data-uk-filter-control="[data-color='blue']"><a class="mod-subnav-li uk-box-shadow-small" href="#">پیراهن</a></li>
+                <li data-uk-filter-control="[data-color='black']"><a class="mod-subnav-li uk-box-shadow-small mod-black" href="#">اکسسوری</a></li>
+            </ul>
+            <ul class="js-filter uk-child-width-1-1 uk-child-width-1-4@m uk-child-width-1-2@s uk-text-center" data-uk-grid>
+                <li data-color="white">
+                    <a href="#">
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                <img src="asset/img/Product1.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                            </div>
+                            <div class="uk-card-body uk-padding-small">
+                                <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                </div>
+                                <h2 class="uk-h5 uk-margin-small-bottom">کیف چرمی زنانه</h2>
+                                <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                <hr>
+                                <div class="uk-flex uk-flex-center" data-uk-margin>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li data-color="blue">
+                    <a href="#">
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                <img src="asset/img/Product2.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                            </div>
+                            <div class="uk-card-body uk-padding-small">
+                                <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                </div>
+                                <h2 class="uk-h5 uk-margin-small-bottom">کیف چرمی زنانه</h2>
+                                <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                <hr>
+                                <div class="uk-flex uk-flex-center" data-uk-margin>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li data-color="white">
+                    <a href="#">
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                <img src="asset/img/Product3.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                            </div>
+                            <div class="uk-card-body uk-padding-small">
+                                <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                </div>
+                                <h2 class="uk-h5 uk-margin-small-bottom">کیف چرمی زنانه</h2>
+                                <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                <hr>
+                                <div class="uk-flex uk-flex-center" data-uk-margin>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li data-color="white">
+                    <a href="#">
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top uk-padding-small uk-padding-remove-bottom">
+                                <img src="asset/img/Product4.jpg" class="uk-align-center uk-margin-remove-bottom" alt="" data-uk-img>
+                            </div>
+                            <div class="uk-card-body uk-padding-small">
+                                <div class="uk-margin-small-bottom uk-flex uk-flex-center">
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-empty-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                    <span class="mod-rating-star mod-full-star"></span>
+                                </div>
+                                <h2 class="uk-h5 uk-margin-small-bottom">کیف چرمی زنانه</h2>
+                                <h3 class="uk-h5 uk-margin-small-top mod-blue">8500تومان</h3>
+                                <hr>
+                                <div class="uk-flex uk-flex-center" data-uk-margin>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="" src="asset/img/bag.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>افزودن به سبد </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/view.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>تعداد بازدید </span></div>
+                                    </a>
+                                    <a class="uk-margin-left uk-margin-right uk-position-relative mod-bag" href="#">
+                                        <img class="mod-card-icon" src="asset/img/heart.svg" alt="" data-uk-svg>
+                                        <div class="mod-triangle"></div>
+                                        <div class="mod-add-cart uk-flex uk-flex-middle uk-flex-center"><span>مورد علاقه </span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="uk-section-large mod-grey-bg">
+    <div class="uk-container uk-text-center">
+        <h2 class="uk-h3">وبلاگ </h2>
+        <h3 class="uk-text-muted uk-h4">آخرین خبرهای داخلی و خارجی از صنعت پوشاک</h3>
+        <div class="uk-margin-large-top" data-uk-slider="autoplay:true;interval: 500;" data-uk-scrollspy="target: > div > ul > li; cls:uk-animation-slide-bottom-small; delay: 350">
+            <div class="uk-position-relative uk-visible-toggle">
+                <ul class="uk-slider-items uk-child-width-1-3@s uk-grid">
+                    <li>
+                        <a href="single.html">
+                            <div>
+                                <div class="uk-card mod-card uk-box-shadow-hover-medium">
+                                    <div class="uk-card-media-top uk-padding-small">
+                                        <img class="mod-radius uk-align-center" src="asset/img/Blog-1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="uk-text-center uk-h5 mod-black">مبل های تاشو</h3>
+                                        <p class="uk-text-center uk-text-small mod-black uk-padding-small">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </p>
+                                        <div class="uk-flex uk-flex-center">
+                                            <a class="mod-black">
+                                                ادامه خبر
+                                                <hr class="mod-short-hr">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="single.html">
+                            <div>
+                                <div class="uk-card mod-card uk-box-shadow-hover-medium">
+                                    <div class="uk-card-media-top uk-padding-small">
+                                        <img class="mod-radius uk-align-center" src="asset/img/Blog-2.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="uk-text-center uk-h5 mod-black">معرفی انواع چوب</h3>
+                                        <p class="uk-text-center uk-text-small mod-black uk-padding-small">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </p>
+                                        <div class="uk-flex uk-flex-center">
+                                            <a class="mod-black">
+                                                ادامه خبر
+                                                <hr class="mod-short-hr">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="single.html">
+                            <div>
+                                <div class="uk-card mod-card uk-box-shadow-hover-medium">
+                                    <div class="uk-card-media-top uk-padding-small">
+                                        <img class="mod-radius uk-align-center" src="asset/img/Blog-3.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="uk-text-center uk-h5 mod-black">میز و صندلی مدرن</h3>
+                                        <p class="uk-text-center uk-text-small mod-black uk-padding-small">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </p>
+                                        <div class="uk-flex uk-flex-center">
+                                            <a class="mod-black">
+                                                ادامه خبر
+                                                <hr class="mod-short-hr">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="single.html">
+                            <div>
+                                <div class="uk-card mod-card uk-box-shadow-hover-medium">
+                                    <div class="uk-card-media-top uk-padding-small">
+                                        <img class="mod-radius uk-align-center" src="asset/img/Blog-1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="uk-text-center uk-h5 mod-black">رونمایی از دو محصول جدید گروه </h3>
+                                        <p class="uk-text-center uk-text-small mod-black uk-padding-small">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </p>
+                                        <div class="uk-flex uk-flex-center">
+                                            <a class="mod-black">
+                                                ادامه خبر
+                                                <hr class="mod-short-hr">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="uk-hidden@s">
+                    <a class="uk-position-center-left uk-position-small" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a>
+                </div>
+
+                <div class="uk-visible@s uk-position-z-index">
+                    <a class="uk-position-center-left-out uk-position-small" href="#" data-uk-slidenav-previous data-uk-slider-item="previous">بعدی</a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" data-uk-slidenav-next data-uk-slider-item="next">قبلی</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section-large">
+    <div class="uk-container uk-text-center">
+        <h2 class="uk-h3"> برند های ویژه</h2>
+        <h3 class="uk-text-muted uk-h4">بهترین برند های پوشاک در فروشگاه </h3>
+        <div class="uk-position-relative uk-visible-toggle " id="slide3" data-uk-slider >
+            <ul class="uk-slider-items uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-1 uk-padding uk-padding-remove-horizontal uk-grid" data-uk-grid>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-4.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-3.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-1.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-2.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-3.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-1.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-flex uk-flex-center">
+                    <a href="#">
+                        <div class="uk-card uk-card-default mod-brand uk-flex uk-flex-middle uk-flex-center mod-black-icon">
+                            <img src="asset/img/Brand-2.svg" data-uk-svg alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin mod-comment-dotnav" ></ul>
+        </div>
+    </div>
+</div>
+<div class="uk-section uk-padding-remove-bottom mod-grey-bg">
+    <div class="uk-container">
+        <div data-uk-grid>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                <h2 class="uk-h4 mod-blue">آشنایی با ما</h2>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="about.html">درباره ما</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="contact.html">تماس با ما</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">فرصت های شغلی</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">سوالات متداول</a>
+                </div>
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                <h2 class="uk-h4 mod-blue">خدمات مشتریان</h2>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">حریم خصوصی</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">قوانین و مقررات</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">بازگشت محصولات</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">روش های پرداخت</a>
+                </div>
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                <h2 class="uk-h4 mod-blue">مجوز های ما</h2>
+                <p class="uk-text-justify uk-padding-small uk-padding-remove-top uk-padding-remove-right mod-font-m mod-black">
+                    فروشگاه خانه مبل با سابقه دیرینه در صنعت مبلمان و محصولات چوبی، با افتخار به عرض می رساند این فروشگاه با عرضه با کیفیت ترین مصنوعات چوبی قدمی شگرف در صنعت مبلمان و  </p>
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1 uk-flex uk-flex-center uk-flex-middle">
+                <div class="uk-child-width-auto uk-grid-small" data-uk-grid>
+                    <div>
+                        <div class="mod-namad uk-flex uk-flex-center uk-flex-middle uk-box-shadow-small">
+                            <img src="asset/img/namad.png" data-uk-img>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mod-namad uk-flex uk-flex-center uk-flex-middle uk-box-shadow-small">
+                            <img src="asset/img/samandehi.png" data-uk-img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-1-2@s uk-child-width-1-1" data-uk-grid>
+            <div class="uk-flex uk-flex-middle">
+                <ul class="uk-subnav mod-footer-nav uk-flex uk-flex-right@s uk-flex-center" data-uk-margin>
+                    <li><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="account.html">حساب من</a></li>
+                    <li><a href="cart.html">سبد خرید</a></li>
+                    <li><a href="#">پیگیری سفارش</a></li>
+                </ul>
+            </div>
+            <div>
+                <form class="uk-width-1-2@s uk-width-1-1 mod-search-form uk-box-shadow-small">
+                    <input class="mod-search-input mod-font-m mod-black" placeholder="عضویت در خبرنامه" >
+                    <a href="#" class="mod-search-button uk-button uk-flex uk-flex-middle" >عضویت</a>
+                </form>
+            </div>
+        </div>
+        <hr class="uk-margin-large-top">
+        <div class="uk-child-width-1-2@s uk-margin-bottom" data-uk-grid>
+            <div class="uk-text-right@s uk-text-center">کلیه حقوق مادی و معنوی </div>
+            <div>
+                <ul class="uk-subnav uk-flex uk-flex-left@s uk-flex-center">
+                    <li><a href="#"><img src="asset/img/telegram.svg" data-uk-svg alt=""></a></li>
+                    <li><a href="#"><img src="asset/img/twitter.svg" data-uk-svg alt=""></a></li>
+                    <li><a href="#"><img src="asset/img/facebook.svg" data-uk-svg alt=""></a></li>
+                    <li><a href="#"><img src="asset/img/instagram.svg" data-uk-svg alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var count=document.querySelectorAll('.mod-index').length;
+    UIkit.util.on('#main', 'beforeitemshow', function () {
+       var x=UIkit.slideshow('#main').index;
+        document.getElementsByClassName("mod-index")[x].innerHTML=x+1;
+        document.getElementsByClassName("mod-count")[x].innerHTML=count;
+    });
+
+
+</script>
+</body>
+</html>

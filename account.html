@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./asset/css/uikit-rtl.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <script src="./asset/js/uikit.min.js"></script>
+    <script src="./asset/js/uikit-icons.min.js"></script>
+    <title>acccount</title>
+</head>
+<body>
+<!-- Header -->
+<div class="uk-padding uk-visible@m">
+    <div class="uk-container">
+        <nav class="uk-navbar-container mod-bg-white" data-uk-navbar>
+            <div id="modal-full" class="uk-modal-full uk-modal" data-uk-modal>
+                <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle mod-search-modal" data-uk-height-viewport>
+                    <div>
+                        <button class="uk-modal-close-full" type="button" data-uk-close></button>
+                        <h2 class="mod-white uk-text-center"> دنبال چی میگردی ؟</h2>
+                        <form class="uk-search uk-search-default">
+                            <span class="uk-search-icon-flip mod-blue" data-uk-search-icon></span>
+                            <input class="uk-search-input mod-radius uk-text-right" type="search" placeholder="جستجو کن ...">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-subnav uk-navbar-right" data-uk-margin>
+                <a href="cart.html" class="uk-position-relative mod-black-icon" data-uk-toggle="target: #bag"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+                <a href="#" class="uk-position-relative mod-black-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                <a href="login-register.html" class=" mod-black-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></a>
+                <a href="#modal-full" class="mod-black-icon" data-uk-toggle><img src="asset/img/search.svg" alt="" data-uk-svg></a>
+            </div>
+            <div id="bag" data-uk-offcanvas="flip:false; overlay: true">
+                <div class="uk-offcanvas-bar mod-bag-off">
+
+                    <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+                    <h3 class="uk-h4 uk-margin-remove-top">سبد خرید شما</h3>
+                    <hr class="mod-hr">
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/cart-p.jpg" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-width-expand uk-flex-middle">
+                            <div class="uk-margin-small">کتانی نایک سفید مدل Jordan</div>
+                            <div class="uk-margin-small">Nike Jordan Sneakers</div>
+                            <div class="uk-margin-small mod-blue">250000  تومان</div>
+                        </div>
+                        <div class="uk-width-auto uk-flex uk-flex-middle">
+                            <a href="#" class="mod-trash" data-uk-icon="icon:trash"></a>
+                        </div>
+                    </div>
+                    <hr class="mod-hr">
+                    <div class="uk-grid-small" data-uk-grid>
+                        <div class="uk-width-auto">
+                            <img src="asset/img/cart-p.jpg" alt="" data-uk-img>
+                        </div>
+                        <div class="uk-width-expand uk-flex-middle">
+                            <div class="uk-margin-small">کتانی نایک سفید مدل Jordan</div>
+                            <div class="uk-margin-small">Nike Jordan Sneakers</div>
+                            <div class="uk-margin-small mod-blue">250000  تومان</div>
+                        </div>
+                        <div class="uk-width-auto uk-flex uk-flex-middle">
+                            <a href="#" class="mod-trash" data-uk-icon="icon:trash"></a>
+                        </div>
+                    </div>
+                    <hr class="mod-hr">
+                </div>
+            </div>
+            <div class="uk-flex-center uk-navbar-center uk-visible@m">
+                <ul class="uk-navbar-nav">
+                    <li><a class="uk-button uk-button-text mod-black" href="index.html">صفحه اصلی</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#">مردانه </a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#">زنانه</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#" >بچه گانه</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="#">ورزشی</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="shop.html">محصولات</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="blog.html">وبلاگ</a></li>
+                    <li><a class="uk-button uk-button-text mod-black" href="about.html">درباره ما</a></li>
+                </ul>
+            </div>
+
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li><img src="asset/img/Logo.svg" alt="" data-uk-svg></li>
+                </ul>
+                <div class="uk-subnav uk-flex uk-flex-center uk-navbar-right uk-hidden@m uk-padding-remove-vertical" data-uk-margin>
+                    <a href="#" class="uk-position-relative mod-black-icon" data-uk-toggle="target: #bag"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+                    <a href="#" class="uk-position-relative mod-black-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                    <a href="#" class="mod-black-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></a>
+                    <a href="#modal-full" class="mod-black-icon" data-uk-toggle><img src="asset/img/search.svg" alt="" data-uk-svg></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="uk-container uk-hidden@m">
+    <nav class="uk-navbar-container mod-bg-white" data-uk-navbar>
+        <div class="uk-navbar-right">
+            <a class="uk-navbar-toggle" href="#" data-uk-toggle="target: #offcanvas">
+                <span data-uk-navbar-toggle-icon></span>
+            </a>
+        </div>
+        <div id="offcanvas" data-uk-offcanvas="flip:false; overlay: true">
+            <div class="uk-offcanvas-bar mod-sid-menu">
+
+                <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+                <img class="uk-margin" src="asset/img/Logo.svg">
+                <hr class="mod-hr">
+                <ul class="uk-list uk-margin-small-top mod-list">
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="index.html">صفحه اصلی</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">مردانه </a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">زنانه</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">بچه گانه</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="#">ورزشی</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="shop.html">محصولات</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="blog.html">وبلاگ</a></li>
+                    <li class="uk-padding-small uk-margin-remove-vertical mod-l"><a href="about.html">درباره ما</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="uk-navbar-left">
+            <div class="uk-subnav" data-uk-margin>
+                <a href="cart.html" class="uk-position-relative mod-black-icon" data-uk-toggle="target: #bag"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/bag.svg" alt="" data-uk-svg></a>
+                <a href="#" class="uk-position-relative mod-black-icon"><span class="mod-count-cir uk-text-center">2</span><img src="asset/img/heart.svg" alt="" data-uk-svg></a>
+                <a href="login-register.html" class="mod-black-icon" ><img src="asset/img/user.svg" alt="" data-uk-svg></a>
+                <a href="#modal-full" class="mod-black-icon" data-uk-toggle><img src="asset/img/search.svg" alt="" data-uk-svg></a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="uk-height-large uk-background-cover" data-src="asset/img/Header-about.jpg" data-uk-img data-uk-grid >
+</div>
+<div class="uk-section-large">
+    <div class="uk-container" data-uk-margin>
+        <div class="uk-card uk-card-default uk-margin-large">
+            <div class="uk-padding">
+                <ul class="uk-subnav mod-nav uk-margin-remove-bottom" >
+                    <li><a href="#">پروفایل کاربری</a></li>
+                    <li><a href="#">سفارش های من</a></li>
+                    <li><a href="#">لیست علاقه مندی ها</a></li>
+                    <li><a href="#">سبد خرید</a></li>
+                    <li><a href="#">کد تخفیف</a></li>
+                    <li><a href="#">خروج از حساب</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="uk-card uk-card-default uk-margin-large">
+            <div class="uk-padding">
+                <div data-uk-grid>
+                    <div class="uk-width-auto">
+                        <h3 class="uk-h5 mod-blue">مشخصات فردی شما</h3>
+                    </div>
+                    <div class="uk-width-expand uk-text-left mod-lightgrey2">
+                        <span data-uk-icon="icon: pencil;ratio:1.5"></span>
+                    </div>
+                </div>
+                <p class="mod-lightgrey2">شما می توانید مشخصات خود را ویرایش نمایید</p>
+                <hr>
+                <div class="uk-child-width-auto@s uk-grid-small uk-grid-divider" data-uk-grid >
+                    <div class=""><span class="uk-text-muted uk-h5">نام و نام خانوادگی:</span><span class="uk-h5 uk-text-bold">محمدرضا حسینی</span></div>
+                    <div class=""><span class="uk-text-muted uk-h5">پست الکترونیک:</span><span class="uk-h5 uk-text-bold">mohammadrez@gmail.com</span></div>
+                    <div class=""><span class="uk-text-muted uk-h5">شماره تلفن همراه:</span><span class="uk-h5 uk-text-bold">0911234567</span></div>
+                    <div class=""><span class="uk-text-muted uk-h5">عضویت در خبرنامه:</span><span class="uk-h5 uk-text-bold">بله</span></div>
+                    <div class=""><span class="uk-text-muted uk-h5">کد ملی:</span><span class="uk-h5 uk-text-bold">1235634022</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-card uk-card-default uk-margin">
+            <div class="uk-padding">
+                <div data-uk-grid>
+                    <div class="uk-width-auto">
+                        <h3 class="uk-h5 mod-blue">لیست علاقه مندی ها</h3>
+                    </div>
+                    <div class="uk-width-expand uk-text-left mod-lightgrey2">
+                        <span data-uk-icon="icon: pencil;ratio:1.5"></span>
+                    </div>
+                </div>
+                <p class="mod-lightgrey2">شما می توانید لیست مورد علاقه خود را ویرایش کنید</p>
+                <hr>
+                <div class="uk-child-width-1-1 uk-grid-divider" data-uk-grid>
+                    <div>
+                        <div data-uk-grid>
+                            <div class="uk-width-auto@s uk-flex uk-flex-center uk-width-1-1">
+                                <img src="asset/img/Produc-1.jpg" data-uk-img alt="">
+                            </div>
+                            <div class="uk-width-expand@s uk-width-1-1 uk-flex uk-flex-middle uk-flex-right@s uk-flex-center">
+                                <div>
+                                    <h3 class="uk-h5 uk-margin-small uk-text-right@s uk-text-center">کتانی نایک سفید مدل Jordan</h3>
+                                    <h4 class="uk-margin-small uk-h5">Nike Jordan Sneakers</h4>
+                                    <div class="uk-margin-small uk-flex uk-flex-right@s uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-width-auto@s uk-width-1-1 uk-flex uk-flex-middle uk-flex-left@s uk-flex-center">
+                                <div class="uk-text-center">
+                                    <div class="uk-margin-bottom mod-black">حذف</div>
+                                    <a href="#">
+                                        <div class="mod-delete mod-lightgrey2 uk-box-shadow-small"><span data-uk-icon="icon:trash;ratio:1.5"></span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div data-uk-grid>
+                            <div class="uk-width-auto@s uk-flex uk-flex-center uk-width-1-1">
+                                <img src="asset/img/Produc-2.jpg" data-uk-img alt="">
+                            </div>
+                            <div class="uk-width-expand@s uk-width-1-1 uk-flex uk-flex-middle uk-flex-right@s uk-flex-center">
+                                <div>
+                                    <h3 class="uk-h5 uk-margin-small uk-text-right@s uk-text-center">هودی ضخیم داخل کرک</h3>
+                                    <h4 class="uk-margin-small uk-h5">Hoody boy clothes</h4>
+                                    <div class="uk-margin-small uk-flex uk-flex-right@s uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-width-auto@s uk-width-1-1 uk-flex uk-flex-middle uk-flex-left@s uk-flex-center">
+                                <div class="uk-text-center">
+                                    <div class="uk-margin-bottom mod-black" >حذف</div>
+                                    <a href="#">
+                                        <div class="mod-delete mod-lightgrey2 uk-box-shadow-small"><span data-uk-icon="icon:trash;ratio:1.5"></span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div data-uk-grid>
+                            <div class="uk-width-auto@s uk-flex uk-flex-center uk-width-1-1">
+                                <img src="asset/img/Produc-3.jpg" data-uk-img alt="">
+                            </div>
+                            <div class="uk-width-expand@s uk-width-1-1 uk-flex uk-flex-middle uk-flex-right@s uk-flex-center">
+                                <div>
+                                    <h3 class="uk-h5 uk-margin-small uk-text-right@s uk-text-center">ساک اسپرت قهوه ای</h3>
+                                    <h4 class="uk-margin-small uk-h5">Extreme sport Brown</h4>
+                                    <div class="uk-margin-small uk-flex uk-flex-right@s uk-flex-center">
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-empty-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                        <span class="mod-rating-star mod-full-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-width-auto@s uk-width-1-1 uk-flex uk-flex-middle uk-flex-left@s uk-flex-center">
+                                <div class="uk-text-center">
+                                    <div class="uk-margin-bottom mod-black">حذف</div>
+                                    <a href="#">
+                                        <div class="mod-delete mod-lightgrey2 uk-box-shadow-small"><span data-uk-icon="icon:trash;ratio:1.5"></span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="uk-section uk-padding-remove-bottom mod-grey-bg">
+    <div class="uk-container">
+        <div data-uk-grid>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                <h2 class="uk-h4 mod-blue">آشنایی با ما</h2>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="about.html">درباره ما</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="contact.html">تماس با ما</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">فرصت های شغلی</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">سوالات متداول</a>
+                </div>
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                <h2 class="uk-h4 mod-blue">خدمات مشتریان</h2>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">حریم خصوصی</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">قوانین و مقررات</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">بازگشت محصولات</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text mod-font-m mod-black" href="#">روش های پرداخت</a>
+                </div>
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                <h2 class="uk-h4 mod-blue">مجوز های ما</h2>
+                <p class="uk-text-justify uk-padding-small uk-padding-remove-top uk-padding-remove-right mod-font-m mod-black">
+                    فروشگاه خانه مبل با سابقه دیرینه در صنعت مبلمان و محصولات چوبی، با افتخار به عرض می رساند این فروشگاه با عرضه با کیفیت ترین مصنوعات چوبی قدمی شگرف در صنعت مبلمان و  </p>
+            </div>
+            <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1 uk-flex uk-flex-center uk-flex-middle">
+                <div class="uk-child-width-auto uk-grid-small" data-uk-grid>
+                    <div>
+                        <div class="mod-namad uk-flex uk-flex-center uk-flex-middle uk-box-shadow-small">
+                            <img src="asset/img/namad.png" data-uk-img>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mod-namad uk-flex uk-flex-center uk-flex-middle uk-box-shadow-small">
+                            <img src="asset/img/samandehi.png" data-uk-img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-1-2@s uk-child-width-1-1" data-uk-grid>
+            <div class="uk-flex uk-flex-middle">
+                <ul class="uk-subnav mod-footer-nav uk-flex uk-flex-right@s uk-flex-center" data-uk-margin>
+                    <li><a href="index.html">صفحه اصلی</a></li>
+                    <li><a href="account.html">حساب من</a></li>
+                    <li><a href="cart.html">سبد خرید</a></li>
+                    <li><a href="#">پیگیری سفارش</a></li>
+                </ul>
+            </div>
+            <div>
+                <form class="uk-width-1-2@s uk-width-1-1 mod-search-form uk-box-shadow-small">
+                    <input class="mod-search-input mod-font-m mod-black" placeholder="عضویت در خبرنامه" >
+                    <a href="#" class="mod-search-button uk-button uk-flex uk-flex-middle" >عضویت</a>
+                </form>
+            </div>
+        </div>
+        <hr class="uk-margin-large-top">
+        <div class="uk-child-width-1-2@s uk-margin-bottom" data-uk-grid>
+            <div class="uk-text-right@s uk-text-center">کلیه حقوق مادی و معنوی </div>
+            <div>
+                <ul class="uk-subnav uk-flex uk-flex-left@s uk-flex-center">
+                    <li><a href="#"><img src="asset/img/telegram.svg" data-uk-svg alt=""></a></li>
+                    <li><a href="#"><img src="asset/img/twitter.svg" data-uk-svg alt=""></a></li>
+                    <li><a href="#"><img src="asset/img/facebook.svg" data-uk-svg alt=""></a></li>
+                    <li><a href="#"><img src="asset/img/instagram.svg" data-uk-svg alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
